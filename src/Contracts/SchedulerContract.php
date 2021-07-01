@@ -20,6 +20,7 @@ interface SchedulerContract
      * Pass in the current Date to allow us to check events that are due to run.
      *
      * @throws RuntimeException Thrown when the date has not properly been set.
+     *
      * @return Carbon
      */
     public function date(): Carbon;

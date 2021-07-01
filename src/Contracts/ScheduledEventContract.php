@@ -9,7 +9,7 @@ use Carbon\Carbon;
 interface ScheduledEventContract
 {
     /**
-     * Handle this Event
+     * Handle this Event.
      *
      * @return void
      */
